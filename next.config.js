@@ -14,7 +14,7 @@ const nextConfig = {
  */
 module.exports = {
   ...nextConfig,
-  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js'],
+  // pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js'],
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
