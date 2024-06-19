@@ -1,0 +1,15 @@
+@import "@breakpoints";
+
+.page {
+    max-width: 715px;
+    min-height: 88vh;
+    margin: auto;
+    padding: 24px 0;
+
+
+    @include mobile {
+      max-width: unset;
+      padding: 24px 8px;
+    }
+  }
+  

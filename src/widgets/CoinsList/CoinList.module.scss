@@ -1,0 +1,31 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 24px;
+    border-radius: 16px;
+    height: 100%;
+    background-color: white;
+}
+
+.listItem {
+    padding: 6px 0;
+    width: 100%;
+}
+
+.listItemContainer {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: black;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: #cccccc4e;
+        border-radius: 12px;
+    }
+}
+
+.title {
+    width: 140px;
+}
